@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+
+    </script>
+    <link rel="stylesheet" href="{% static 'css/aiengine.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <div class="myform">
+    <form method="POST" action="/" enctype="multipart/form-data" multiple class = "form-control-file" >
+        {% csrf_token %}
+        <input type="file" id="myfile1" name="myfile1">
+        <input type="file" id="myfile2" name="myfile2">
+       
+        <input type="submit">
+      </form>
+    </div>
+    <div>
+        <img src="/media/mypwic.png" />
+    </div>
+</body>
+</html>

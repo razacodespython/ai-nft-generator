@@ -1,0 +1,24 @@
+html {
+    background-color: rgb(149, 110, 78);
+  }
+
+/* 
+.myform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form input{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
