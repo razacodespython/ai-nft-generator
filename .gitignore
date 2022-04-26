@@ -8,7 +8,7 @@ media
 
 # Backup files # 
 *.bak 
-ai_engine/results
+ai_engine/results/vgg19-dcbb9e9d.pth
 # If you are using PyCharm # 
 # User-specific stuff
 .idea/**/workspace.xml
